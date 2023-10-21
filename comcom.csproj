@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="contact.html" />
     <Content Include="index.html" />
+    <Content Include="index2.html" />
     <Content Include="NewFolder1\1672606517_742_صور-نمر-Tiger-اجمل-خلفيات-نمور-بجودة-HD.jpg" />
     <Content Include="NewFolder1\pexels-nipen-7246228 %281080p%29.mp4" />
     <Content Include="StyleSheet.css" />
