@@ -1,0 +1,267 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;300;600&family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,400&family=Quicksand:wght@300;500&family=Yuji+Hentaigana+Akari&display=swap');
+body {
+    min-height: 110vh;
+    background-color: #4ca1af;
+    background-image: linear-gradient(135deg, #4ca1af 0%, #c4e0e5 100%);
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+    .navbar .nav-link {
+        color: #fff;
+    }
+
+        .navbar .nav-link:hover,
+        .navbar .nav-link:focus {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    .navbar .navbar-brand {
+        color: #fff;
+    }
+
+
+    /* Change navbar styling on scroll */
+    .navbar.active {
+        background: #fff;
+        box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .navbar.active .nav-link {
+            color: #555;
+        }
+
+            .navbar.active .nav-link:hover,
+            .navbar.active .nav-link:focus {
+                color: #555;
+                text-decoration: none;
+            }
+
+        .navbar.active .navbar-brand {
+            color: #555;
+        }
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+        .navbar .navbar-brand, .navbar .nav-link {
+            color: #555;
+        }
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+.text-small {
+    font-size: 0.9rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#vv {
+    display: flex;
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    font-weight: 200;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+}
+#bb {
+    display: flex;
+    text-align: left;
+    background-color: #000000;
+    font-weight: 200;
+    font-size: larger;
+    color: #ffffff;
+    width: 70px;
+    margin-left: 220px;
+}
+
+#mm{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#ii {
+    margin-top: 50px;
+    width:700px;
+}
+#pp {text-align:center;
+    margin-top: 60px;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size:large;
+    font-weight:600;
+}
+#ss {
+    display: block;
+    text-align:left;
+    justify-content:left;
+
+}
+#gg {
+    display: block;
+    justify-content: right;
+    margin-left: 1000px;
+    margin-top: 10px;
+    text-align: right;
+    width: 150px;
+    height: 150px;
+}
+#hh {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size:larger;
+
+    background-color: #000000;
+    color: #ffffff; 
+    
+}
+#ll {display:flex;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+    font-weight: 600;
+   
+}
+ul li {
+    display: flex;
+    padding: 20px;
+    color: #ffffff;
+
+}
+#ff {
+    display: block;
+    justify-content: center;
+    text-align: left;
+    margin-top:50px;
+}
+#tt {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    background-color: #000000;
+    color: #ffffff;
+    margin-right:655px;
+}
+
+
+
+#kk{
+    display:flex;
+     background-color:#000000;
+     width:460px;
+     height:250px;
+ }
+
+#aa {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    background-color: #000000;
+    color: #ffffff;
+    margin-right: 800px;
+    margin-left: 37px;
+}
+
+
+
+
+
+.responsive-table 
+    li
+
+{
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.table-row {
+    background-color: #000000;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+}
+
+.col-1 {
+    flex-basis: 10%;
+}
+
+.col-2 {
+    flex-basis: 40%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+.col-4 {
+    flex-basis: 25%;
+}
+
+@media all and (max-width: 767px) {
+    .table-header {
+        display: none;
+    }
+
+    .table-row {
+    }
+
+    li {
+        display: block;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    .col {
+        display: flex;
+        padding: 10px 0;
+    }
+
+    .before {
+        color: #6C7A89;
+        padding-right: 10px;
+        content: attr(data-label);
+        flex-basis: 50%;
+        text-align: right;
+    }
+
+   
